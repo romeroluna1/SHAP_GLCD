@@ -1,0 +1,2 @@
+feature,class_j,class_r,N_pair,feature_type,effect_size_metric,effect_size_symbol,effect_size_signed,effect_size_absolute,proportion_class_j,proportion_class_r,ks_statistic_D,ks_pvalue,t_opt,t_opt_direction,balanced_accuracy_t_opt,t_bnd,balanced_accuracy_t_bnd
+petal length (cm),0,2,30,quantitative,Cohen d,d,-11.196306966319305,11.196306966319305,,,1.0,1.2893450075787698e-08,0.10344827586206895,<=,1.0,0.34482758620689646,1.0

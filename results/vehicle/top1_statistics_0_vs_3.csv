@@ -1,0 +1,2 @@
+feature,class_j,class_r,N_pair,feature_type,effect_size_metric,effect_size_symbol,effect_size_signed,effect_size_absolute,proportion_class_j,proportion_class_r,ks_statistic_D,ks_pvalue,t_opt,t_opt_direction,balanced_accuracy_t_opt,t_bnd,balanced_accuracy_t_bnd
+MAX.LEN ASP RAT,0,3,120,quantitative,Cohen d,d,-0.5480161958016707,0.5480161958016707,,,0.4666666666666667,2.83729618060969e-06,0.07692307692307694,<=,0.7333333333333334,0.038461538461538464,0.5

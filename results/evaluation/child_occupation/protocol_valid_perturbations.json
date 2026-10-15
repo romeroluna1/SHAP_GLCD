@@ -1,0 +1,42 @@
+{
+    "dataset_code": "child_occupation",
+    "dataset_article": "Ocupacion de Menores (5-17 anos)",
+    "artifact_dir": "C:\\Users\\10FV7Y3\\RandomForestExpli\\SHAP_GLCD_Tabular\\SHAP_GLCD_GITHUB\\artifacts\\child_occupation",
+    "model": "MyOptimizedRandomForestClassifier",
+    "selection_mode": "true_label_balanced",
+    "includes_correct_and_incorrect_predictions": true,
+    "pairs": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "n_instances_per_pair": 50,
+    "M_perturbations_per_instance": 30,
+    "sigma_fraction_train_range": 0.005,
+    "p_change_binary_categorical_ordinal": 0.05,
+    "tau_cosine_similarity": 0.85,
+    "top_k": 10,
+    "normalize": "l2",
+    "random_state": 42,
+    "instance_seed_rule": "random_state + 10000*(pair_i+1) + 1000*(pair_j+1) + local_position",
+    "perturbation_parameters_note": "Dataset-specific valid-perturbation parameters: sigma=0.005 of TRAIN range for numeric variables and p_change=0.05 for binary/categorical/ordinal variables.",
+    "perturbation_space": "original_feature_space",
+    "continuous": "Gaussian local noise with SD=sigma*train_range; clip to train min/max.",
+    "discrete_numeric": "Gaussian local noise with SD=sigma*train_range; project to nearest train-observed valid value.",
+    "binary": "Keep valid states; switch with p_change to another train-observed state.",
+    "categorical": "Switch with p_change; sample only train-observed categories according to empirical train distribution.",
+    "ordinal": "Switch with p_change; remain within train-observed valid ordinal values.",
+    "transform_after_perturbation": "same fitted feature selection + same fitted encoder + same fitted MinMaxScaler; no refit",
+    "metrics": {
+        "Stability_S": "Mean squared L2 distance between normalized sparse base SHAP-LCD explanation and perturbed explanations; lower is more stable.",
+        "Consistency_C_imp": "Mean truth value of implication (cosine_similarity >= tau) => prediction_preserved.",
+        "Consistency_C_predexp": "Fraction with cosine_similarity >= tau conditional on prediction preserved. NaN if no perturbation preserves the base prediction.",
+        "Coverage_imp": "Fraction with cosine_similarity >= tau.",
+        "PredKeep_imp": "Fraction whose predicted class equals base predicted class."
+    }
+}

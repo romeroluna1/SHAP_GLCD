@@ -1,0 +1,3 @@
+﻿test_index,shap_row,true_class_id,true_class,predicted_class_id,predicted_class,correct_prediction
+4219,1376,1,Trouser,1,Trouser,True
+9797,200,0,T-shirt/Top,0,T-shirt/Top,True

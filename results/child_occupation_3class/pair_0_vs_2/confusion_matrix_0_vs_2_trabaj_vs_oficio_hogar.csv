@@ -1,0 +1,4 @@
+,pred_trabaj,pred_bustrabajo,pred_oficio_hogar
+true_trabaj,3,0,0
+true_bustrabajo,0,0,1
+true_oficio_hogar,1,0,362

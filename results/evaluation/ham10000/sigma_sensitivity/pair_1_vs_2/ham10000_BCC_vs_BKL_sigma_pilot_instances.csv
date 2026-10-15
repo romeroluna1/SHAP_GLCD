@@ -1,0 +1,5 @@
+﻿local_position,full_sample_local_position,sigma,top_k,shap_row,test_position,image_id,lesion_id,true_class_id,true_class,predicted_class_id,predicted_class,correct_prediction,abs_deltaP,Stability_S,Consistency_C_imp,Coverage_imp,PredKeep_imp,Cosine_mean,mean_abs_pixel_change,seconds
+0,0,0.001,10,88,92,ISIC_0029108,HAM_0003179,2,Benign keratosis-like lesions,2,Benign keratosis-like lesions,True,0.9995664954185486,1.541386395770244,1.0,0.0,1.0,0.2293068020118808,0.0007979894580785185,60.69664978981018
+1,2,0.001,10,191,564,ISIC_0029820,HAM_0007627,1,Basal cell carcinoma,1,Basal cell carcinoma,True,0.6205830574035645,0.31165700514000133,1.0,0.0,1.0,0.8441714974256813,0.0007981841044966131,60.8785297870636
+0,0,0.0025,10,88,92,ISIC_0029108,HAM_0003179,2,Benign keratosis-like lesions,2,Benign keratosis-like lesions,True,0.9995664954185486,1.6272217367142163,1.0,0.0,1.0,0.18638913153352366,0.001994973747059703,61.12074279785156
+1,2,0.0025,10,191,564,ISIC_0029820,HAM_0007627,1,Basal cell carcinoma,1,Basal cell carcinoma,True,0.6205830574035645,0.322557240188342,1.0,0.0,1.0,0.838721379901424,0.0019954602466896176,61.55728530883789

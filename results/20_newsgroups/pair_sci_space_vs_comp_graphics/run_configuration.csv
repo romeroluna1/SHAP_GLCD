@@ -1,0 +1,2 @@
+seed,dataset,model_dir,class_j,class_r,filter_mode,balance_pair_sample,max_eval_requested,n_selected,max_length,min_token_frequency,min_document_frequency,pretruncate_texts_for_shap,minimum_exact_alignment_rate,ranked_top_k,shap_cache
+42,20newsgroups,C:\Users\10FV7Y3\RandomForestExpli\SHAP_GLCD_Tabular\SHAP_GLCD_GITHUB\artifacts\20_newsgroups\model_20newsgroups_roberta_base,sci.space,comp.graphics,true,True,200,200,256,5,3,True,0.9,20,shap_values_glcd_sci_space_vs_comp_graphics_N200_true_seed42_L256_pretruncated1_6d906f108793.pickle

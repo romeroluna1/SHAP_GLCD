@@ -1,0 +1,3 @@
+﻿cache_position,idx_test,true_label,true_class,base_prediction,base_prediction_name,instance_seed,Stability_S,Consistency_C_predexp,Consistency_C_imp,Coverage_imp,PredKeep_imp,M_keep
+110,1905,6,Neutrophil,6,Neutrophil,42,0.9243768001589777,0.0,1.0,0.0,1.0,2
+1004,2022,1,Eosinophil,1,Eosinophil,43,1.6140302068006473,0.0,1.0,0.0,1.0,2

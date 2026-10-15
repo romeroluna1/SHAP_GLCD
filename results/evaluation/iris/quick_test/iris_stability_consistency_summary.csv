@@ -1,0 +1,5 @@
+﻿Metric,Dataset,Pair,N,mean,std,median,SE,mean+-std
+Stability_S,Iris,setosa vs virginica,2,1.6828465963929918e-07,2.379904480012371e-07,1.6828465963929918e-07,1.6828465963929916e-07,0.000000 +- 0.000000
+Consistency_C_imp,Iris,setosa vs virginica,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000
+Coverage_imp,Iris,setosa vs virginica,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000
+PredKeep_imp,Iris,setosa vs virginica,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000

@@ -1,0 +1,16 @@
+{
+  "quick_test": true,
+  "seed": 42,
+  "class_j": 6,
+  "class_r": 1,
+  "N_instances": 2,
+  "M_perturbations": 2,
+  "sigma": 0.005,
+  "tau": 0.95,
+  "top_k": 10,
+  "background_size": 100,
+  "selection": "true_labels_balanced",
+  "prediction_filter": false,
+  "base_shap": "original_cached_pickle",
+  "perturbed_shap": "GradientExplainer"
+}

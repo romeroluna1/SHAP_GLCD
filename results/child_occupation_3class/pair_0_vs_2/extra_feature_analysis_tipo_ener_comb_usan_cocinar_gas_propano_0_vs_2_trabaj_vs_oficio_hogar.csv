@@ -1,0 +1,2 @@
+feature,n_total,n_pos,n_neg,n_zero,p_pos,p_neg,p_zero,mean_pos,mean_neg,signed_mean,mean_abs,median_abs,favours_positive_class,favours_negative_class
+tipo_ener_comb_usan_cocinar_gas_propano,6,4,2,0,0.6666666666666666,0.3333333333333333,0.0,0.20951819991593662,-0.23254219693196582,0.06216473429996914,0.21719286558794634,0.24165954631346043,trabaj,oficio_hogar

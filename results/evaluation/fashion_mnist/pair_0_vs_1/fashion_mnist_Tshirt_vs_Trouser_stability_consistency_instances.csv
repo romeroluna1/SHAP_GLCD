@@ -1,0 +1,3 @@
+﻿local_position,test_index,shap_row,true_class_id,true_class,predicted_class_id,predicted_class,correct_prediction,abs_deltaP,Stability_S,Consistency_C_imp,Coverage_imp,PredKeep_imp,Cosine_mean
+0,4219,1376,1,Trouser,1,Trouser,True,0.999946653842926,0.26564792849753477,1.0,0.0,1.0,0.8671760357444319
+1,9797,200,0,T-shirt/Top,0,T-shirt/Top,True,0.652389407157898,0.29508275943644735,1.0,0.0,1.0,0.8524586202760928

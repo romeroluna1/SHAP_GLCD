@@ -1,0 +1,2 @@
+class_j,class_j_name,class_r,class_r_name,available_j_in_test,available_r_in_test,selected_j,selected_r,N_selected,random_state,selection_basis,balanced_pair,prediction_filter
+0,bus,3,van,65,60,60,60,120,42,true_label,True,False

@@ -1,0 +1,3 @@
+idx_test,original_index,true_label,true_class,base_prediction,base_prediction_class,base_prediction_correct
+818,9841,0,Diario,0,Diario,True
+7761,9015,3,Ocasional,3,Ocasional,True

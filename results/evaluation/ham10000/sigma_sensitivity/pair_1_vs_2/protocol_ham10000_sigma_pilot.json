@@ -1,0 +1,45 @@
+{
+    "dataset": "HAM10000",
+    "model": "ResNet50",
+    "pair": "BCC vs BKL",
+    "class_j": 1,
+    "class_r": 2,
+    "purpose": "diagnostic pilot for sensitivity to perturbation sigma; not a replacement of the completed main experiment",
+    "selection_source": "10 instances (5+5) selected inside the exact definitive N=50 stability/consistency sample",
+    "selection": "true labels, balanced, no prediction filter",
+    "full_main_sample_N": 50,
+    "n_instances_pilot": 2,
+    "n_per_class_pilot": 1,
+    "M": 2,
+    "sigma_values": [
+        0.001,
+        0.0025
+    ],
+    "reference_tau": 0.95,
+    "tau_values_recomputed_from_saved_cosines": [
+        0.85,
+        0.9,
+        0.95
+    ],
+    "top_k": 10,
+    "normalization": "L2",
+    "seed": 42,
+    "instance_seed_rule": "SEED + full_sample_local_position",
+    "paired_noise_across_sigma": "same per-instance default_rng seed is reset for each sigma, so standardized Gaussian draws are paired across sigma values",
+    "image_input_range": "[0,1]",
+    "perturbation": "independent Gaussian noise per RGB component followed by clipping to [0,1]",
+    "base_SHAP": "stored definitive SHAP-GLCD pickle",
+    "perturbed_SHAP": "GradientExplainer",
+    "SHAP_background_size": 30,
+    "SHAP_train_pool": 500,
+    "stored_SHAP_shape_NPK": [
+        204,
+        150528,
+        7
+    ],
+    "idx_eval_exact_match": true,
+    "control_max_abs_difference": 0.0,
+    "control_mean_abs_difference": 0.0,
+    "control_delta_topk_cosine": 0.999999999998,
+    "per_perturbation_cosines_saved": true
+}

@@ -1,0 +1,2 @@
+feature,n_total,n_pos,n_neg,n_zero,p_pos,p_neg,p_zero,mean_pos,mean_neg,signed_mean,mean_abs,median_abs,favours_positive_class,favours_negative_class
+NIVNY_Preescolar,316,190,126,0,0.6012658227848101,0.3987341772151899,0.0,0.11539951398668682,-0.17947415617361992,-0.002176696267106376,0.1409482637194513,0.13505521838236823,Diario,Ocasional

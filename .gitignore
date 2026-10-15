@@ -1,0 +1,24 @@
+﻿# Artefactos y conjuntos de datos
+/artifacts/
+/data/
+
+# Resultados de gran tamaño
+*.pickle
+*.pkl
+*.joblib
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Archivos de NumPy grandes o generados
+*.npy
+*.npz
+
+# Entornos y archivos temporales
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

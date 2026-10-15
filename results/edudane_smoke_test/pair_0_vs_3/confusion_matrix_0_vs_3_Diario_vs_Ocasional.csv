@@ -1,0 +1,6 @@
+,pred_Diario,pred_Semanal,pred_Mensual,pred_Ocasional,pred_Nunca
+true_Diario,2250,1,0,0,0
+true_Semanal,15,6323,9,42,27
+true_Mensual,0,2,667,1,0
+true_Ocasional,0,0,0,158,0
+true_Nunca,0,0,0,6,588

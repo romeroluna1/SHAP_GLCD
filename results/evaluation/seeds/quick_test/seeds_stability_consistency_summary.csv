@@ -1,0 +1,5 @@
+﻿Metric,Dataset,Pair,N,mean,std,median,SE,mean+-std
+Stability_S,Seeds,Kama vs Rosa,2,0.0001160157752418161,5.265035680199707e-05,0.0001160157752418161,3.72294243265834e-05,0.000116 +- 0.000053
+Consistency_C_imp,Seeds,Kama vs Rosa,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000
+Coverage_imp,Seeds,Kama vs Rosa,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000
+PredKeep_imp,Seeds,Kama vs Rosa,2,1.0,0.0,1.0,0.0,1.000000 +- 0.000000

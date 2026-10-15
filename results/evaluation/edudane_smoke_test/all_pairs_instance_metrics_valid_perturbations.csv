@@ -1,0 +1,3 @@
+idx_test,original_index,true_label,true_class,base_prediction,base_prediction_class,base_prediction_correct,pair_i,pair_i_name,pair_j,pair_j_name,pair,abs_deltaP_ij,Stability_S,Consistency_C_imp,Coverage_imp,PredKeep_imp,ImplicationViolationRate,MeanCosineSimilarity,n_antecedent_true,n_prediction_kept,M_perturb
+818,9841,0,Diario,0,Diario,True,0,Diario,3,Ocasional,Diario vs Ocasional,0.9996428571428573,0.4119099735723546,1.0,0.0,0.5,0.0,0.7940450132107914,0,1,2
+7761,9015,3,Ocasional,3,Ocasional,True,0,Diario,3,Ocasional,Diario vs Ocasional,0.9542910170469238,0.15498114809858682,1.0,0.5,0.5,0.0,0.922509425948257,1,1,2

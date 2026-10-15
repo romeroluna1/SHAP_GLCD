@@ -1,0 +1,2 @@
+class_j,class_j_name,class_r,class_r_name,available_j_in_test,available_r_in_test,selected_j,selected_r,N_test_full,N_selected,random_state,selection_basis,balanced_pair,sampling_without_replacement,prediction_filter,correct_and_incorrect_included,n_correct_selected,n_incorrect_selected
+0,trabaj,2,oficio_hogar,3,363,3,3,367,6,42,true_label,True,True,False,True,6,0

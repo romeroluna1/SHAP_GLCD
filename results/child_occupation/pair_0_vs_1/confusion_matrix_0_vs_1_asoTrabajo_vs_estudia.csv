@@ -1,0 +1,5 @@
+,pred_asoTrabajo,pred_estudia,pred_incapacitado,pred_otraactividad
+true_asoTrabajo,255,80,1,31
+true_estudia,138,10318,24,343
+true_incapacitado,1,17,32,2
+true_otraactividad,24,287,3,415

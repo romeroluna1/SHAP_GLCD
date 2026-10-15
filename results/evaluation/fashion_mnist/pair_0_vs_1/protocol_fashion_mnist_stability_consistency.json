@@ -1,0 +1,40 @@
+{
+    "dataset": "Fashion-MNIST",
+    "model": "C:\\Users\\10FV7Y3\\RandomForestExpli\\SHAP_GLCD_Tabular\\SHAP_GLCD_GITHUB\\artifacts\\fashion_mnist\\fashion_cnn_best_corrected_train_val_test.keras",
+    "shap_pickle": "C:\\Users\\10FV7Y3\\RandomForestExpli\\SHAP_GLCD_Tabular\\SHAP_GLCD_GITHUB\\artifacts\\fashion_mnist\\shap_values_fashion_corrected_0_vs_1.pickle",
+    "pair": {
+        "j": 0,
+        "j_name": "T-shirt/Top",
+        "r": 1,
+        "r_name": "Trouser"
+    },
+    "selection": "true labels, balanced, no prediction filter",
+    "n_instances": 2,
+    "n_per_class": 1,
+    "M_perturbations": 2,
+    "sigma": 0.005,
+    "tau": 0.95,
+    "top_k": 10,
+    "normalization": "L2",
+    "seed": 42,
+    "instance_seed_rule": "SEED + local_position",
+    "image_range": "[0,1]",
+    "perturbation": "independent Gaussian noise per normalized pixel followed by clipping to [0,1]",
+    "base_explanation": "stored SHAP values from definitive SHAP-GLCD pickle",
+    "perturbed_explanation": "GradientExplainer using reconstructed original training background",
+    "background_size": 100,
+    "stored_shap_shape": [
+        2000,
+        784,
+        10
+    ],
+    "perturbed_shap_shape": [
+        4,
+        784,
+        10
+    ],
+    "idx_eval_exactly_reconstructed": true,
+    "control_shap_max_abs_difference": 0.0,
+    "control_shap_mean_abs_difference": 0.0,
+    "control_delta_topk_cosine": 0.999999999998
+}

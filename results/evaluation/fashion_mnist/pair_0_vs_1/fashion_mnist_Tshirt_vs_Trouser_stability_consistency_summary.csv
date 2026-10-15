@@ -1,0 +1,5 @@
+﻿Dataset,Pair,N,metric,mean,std,median,mean±std
+Fashion-MNIST,T-shirt/Top vs Trouser,2,Stability_S,0.2803653439669911,0.020813568559984678,0.2803653439669911,0.280365 ± 0.020814
+Fashion-MNIST,T-shirt/Top vs Trouser,2,Consistency_C_imp,1.0,0.0,1.0,1.000000 ± 0.000000
+Fashion-MNIST,T-shirt/Top vs Trouser,2,Coverage_imp,0.0,0.0,0.0,0.000000 ± 0.000000
+Fashion-MNIST,T-shirt/Top vs Trouser,2,PredKeep_imp,1.0,0.0,1.0,1.000000 ± 0.000000

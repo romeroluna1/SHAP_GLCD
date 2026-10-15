@@ -1,0 +1,2 @@
+feature,n_total,n_pos,n_neg,n_zero,p_pos,p_neg,p_zero,mean_pos,mean_neg,signed_mean,mean_abs,median_abs,favours_positive_class,favours_negative_class
+percapita,734,196,538,0,0.2670299727520436,0.7329700272479565,0.0,0.12582459935931814,-0.130379001551059,-0.06196496098098554,0.12916283965789657,0.13481255958281604,asoTrabajo,estudia

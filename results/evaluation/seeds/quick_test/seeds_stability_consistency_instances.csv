@@ -1,0 +1,3 @@
+﻿local_position,test_position,perturbation_seed,true_class_id,true_class,predicted_class_id,predicted_class,correct_prediction,Stability_S,Consistency_C_imp,Coverage_imp,PredKeep_imp,Cosine_mean
+0,47,42,0,Kama,2,Canadian,False,7.87863509152327e-05,1.0,1.0,1.0,0.9999606068245424
+1,37,43,1,Rosa,1,Rosa,True,0.0001532451995683995,1.0,1.0,1.0,0.9999233774002159

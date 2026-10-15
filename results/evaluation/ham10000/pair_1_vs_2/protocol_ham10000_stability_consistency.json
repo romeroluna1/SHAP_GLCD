@@ -1,0 +1,42 @@
+{
+    "dataset": "HAM10000",
+    "model": "ResNet50",
+    "pair": "BCC vs BKL",
+    "class_j": 1,
+    "class_r": 2,
+    "selection_source": "definitive SHAP-GLCD balanced test subset",
+    "selection": "true labels, balanced, no prediction filter",
+    "global_shap_pair_N": 204,
+    "global_shap_pair_balance": "102 + 102",
+    "n_instances": 2,
+    "n_per_class": 1,
+    "M": 2,
+    "sigma": 0.005,
+    "tau": 0.95,
+    "top_k_values": [
+        10,
+        50,
+        100
+    ],
+    "reference_top_k": 10,
+    "top_k_sensitivity_analysis": "K=10,50,100 evaluated from the same SHAP perturbations; SHAP is not recomputed for each K",
+    "normalization": "L2",
+    "seed": 42,
+    "instance_seed_rule": "SEED + local_position",
+    "image_input_range": "[0,1]",
+    "perturbation": "independent Gaussian noise per RGB component followed by clipping to [0,1]",
+    "base_SHAP": "stored definitive SHAP-GLCD pickle",
+    "perturbed_SHAP": "GradientExplainer",
+    "SHAP_background_size": 30,
+    "SHAP_train_pool": 500,
+    "stored_SHAP_shape_NPK": [
+        204,
+        150528,
+        7
+    ],
+    "idx_eval_exact_match": true,
+    "control_max_abs_difference": 0.0,
+    "control_mean_abs_difference": 0.0,
+    "control_delta_topk_cosine": 0.999999999998,
+    "memory_strategy": "2 perturbed images processed per instance; no simultaneous 4-image SHAP allocation"
+}
