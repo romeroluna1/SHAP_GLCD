@@ -86,7 +86,10 @@ experiments that load previously trained models or cached SHAP values.
 No model retraining or SHAP recalculation is necessary when the
 corresponding validated artifacts are available.
 
-## Repository branches
+## Related repositories
 
-- `master`: SHAP-LCD implementation.
-- `shap-glcd`: SHAP-GLCD implementation and experiments.
+- SHAP-LCD: https://github.com/romeroluna1/SHAP_LCD
+- SHAP-GLCD: https://github.com/romeroluna1/SHAP_GLCD
+
+These are independent repositories. SHAP-GLCD builds on the class-differentiation perspective introduced by SHAP-LCD.
+
