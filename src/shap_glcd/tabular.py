@@ -466,7 +466,7 @@ class Gexplainer:
             self.modelo_final
         ).__name__.lower()
 
-        is_xgb = "xgb" in model_class
+        is_xgb = "xgb" in model_class or "lgbm" in model_class
 
         is_tree = any(
             x in model_class

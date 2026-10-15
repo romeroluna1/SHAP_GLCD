@@ -1,0 +1,2 @@
+feature,class_j,class_r,N_pair,feature_type,effect_size_metric,effect_size_symbol,effect_size_signed,effect_size_absolute,proportion_class_j,proportion_class_r,ks_statistic_D,ks_pvalue,t_opt,t_opt_direction,balanced_accuracy_t_opt,t_bnd,balanced_accuracy_t_bnd
+color_intensity,1,2,30,quantitative,Cohen d,d,-2.4913401088362175,2.4913401088362175,,,0.8,5.2347407307698066e-05,0.21501706484641633,<=,0.9,0.3216723549488054,0.8666666666666667

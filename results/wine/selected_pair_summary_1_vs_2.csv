@@ -1,0 +1,2 @@
+class_j,class_j_name,class_r,class_r_name,available_j_in_test,available_r_in_test,selected_j,selected_r,N_selected,random_state,selection_basis,balanced_pair,prediction_filter
+1,wine_class_1,2,wine_class_2,21,15,15,15,30,42,true_label,True,False
