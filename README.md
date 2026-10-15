@@ -28,36 +28,6 @@ of SHAP-LCD from local instances to collections of instances.
 - Child occupation (four classes)
 - Child occupation (three classes)
 
-### Wine experiment
-
-The Wine dataset contains 178 instances, 13 features, and three classes.
-
-- Classifier: LightGBM (LGBMClassifier).
-- Pairwise comparison: class 1 vs. class 2.
-- Random seed: 42.
-- Data split: 70% training and 30% testing, stratified.
-- Cross-validation: 10 stratified folds, with preprocessing fitted
-  separately within each training fold to prevent data leakage.
-- SHAP explainer: KernelExplainer applied to predict_proba.
-- Global sampling: balanced by true class labels, including both
-  correct and incorrect predictions.
-- Selected global sample: 30 instances (15 per class).
-- SHAP additivity: verified in probability space.
-
-To reproduce the experiment:
-
-```powershell
-python examples/tabular/run_wine.py
-```
-
-Implementation: `examples/tabular/run_wine.py`.
-
-Generated figures and summaries: `results/wine/`.
-
-The SHAP cache is generated locally in `artifacts/` and is excluded
-from version control.
-
-
 ### Text classification
 
 - AG News
