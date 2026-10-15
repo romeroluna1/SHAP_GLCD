@@ -22,7 +22,7 @@ of SHAP-LCD from local instances to collections of instances.
 
 - Iris
 - Vehicle
-- Wine (LightGBM, classes 1 vs. 2, SHAP in probability space)
+- Wine 
 - Seeds
 - EduDANE
 - Child occupation (four classes)
